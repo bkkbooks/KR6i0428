@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0428/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0428/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說鬼問目連經
+  identifiers:
+    krp: KR6i0428
+    cbeta: T17n0734
+    cbeta_old_id: T17n0734
+    authorityid: CA0001297
+    json_key: T0734
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0734.xml
+    old_id: T17n0734
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0428_000-T.yaml, hash: 'sha256:3ab18d5255d9fec2445c29114fd355c1b9526cb9e981f9eab7b2c49df4c4d95f'}
+  - {seq: 1, filename: KR6i0428_001-T.yaml, hash: 'sha256:6f0078eacc48a6794ed48be098a27e221533dbacafa4cde7124f01f84c8a484a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0428_000-T.markers.yaml, hash: 'sha256:7df2344dbff324180e42f3de109edd8eb4cbc3b16a3263949ad7d9c64cee73df'}
+  - {seq: 1, role: markers, filename: assets/KR6i0428_001-T.markers.yaml, hash: 'sha256:9832f5bbaf676ea72d9aa25b0419bf32bf053b155680085ac6f8e4d81bfab787'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0428_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1247
+  label: 佛說鬼問目連經
+  type: juan
+  level: 1
+hash: sha256:e23ac163b92bfcceb45c3769abe7c03678ee9b016fa978f982048805b48acaeb
